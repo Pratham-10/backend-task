@@ -1,0 +1,21 @@
+{
+  "name": "toddle-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node nodemon.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^9.0.1",
+    "mysql2": "^3.5.2"
+  }
+}
